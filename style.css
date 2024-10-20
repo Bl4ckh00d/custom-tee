@@ -31,15 +31,21 @@
   user-select: none;
   cursor: default;
 }
-body {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
-  background: hsl(0 0% 98%);
-}
 
 h1 {
-  font-size: clamp(3rem, 15vmin, 8rem);
-  font-family: sans-serif;
-  color: hsl(0 0% 98%);
+ font-size: 2.5rem;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  color: #444;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+p {
+ font-size: 2.5rem;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  color: #444;
+  text-align: center;
+  margin: 2rem 0;
 }
