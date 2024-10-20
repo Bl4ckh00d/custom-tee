@@ -1,4 +1,4 @@
-.drawing-area {
+ct.drawing-area {
   position: absolute;
   top: 60px;
   left: 122px;
@@ -41,7 +41,7 @@ h1 {
   margin: 2rem 0;
 }
 
-p {
+select {
  font-size: 2.5rem;
   font-family: 'Montserrat';
   font-weight: normal;
