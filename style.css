@@ -35,7 +35,7 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  background: hsl(210 30% 24%);
+  background: hsl(0 0% 98%);
 }
 
 h1 {
