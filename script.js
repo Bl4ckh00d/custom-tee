@@ -1,4 +1,5 @@
-let canvas = new fabric.Canvas('tshirt-canvas');
+
+            let canvas = new fabric.Canvas('tshirt-canvas');
 
             function updateTshirtImage(imageURL){
                 fabric.Image.fromURL(imageURL, function(img) {                   
@@ -74,3 +75,4 @@ domtoimage.toPng(node).then(function (dataUrl) {
 }).catch(function (error) {
     console.error('oops, something went wrong!', error);
 });
+        
